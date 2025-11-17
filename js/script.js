@@ -168,7 +168,7 @@ for(let i = 0; i < gnb.length; i++){
 }
 
 // 자동타이핑
-let text = "도전하며 성장하는 \n 웹퍼블리셔 \n 손주혜입니다 :)"
+let text = "도전하며 성장하는 \n 웹퍼블리셔 손주혜입니다 :)"
 let viewText = "";
 let i = 0;
 
