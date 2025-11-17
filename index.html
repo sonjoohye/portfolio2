@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>손주혜 포트폴리오</title>
+    <!-- 구글 폰트 연결 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@300;400;500;700;900&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+     <!-- 폰트어썸 연결 -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- AOS 연결 -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <!-- 내가 작업한 CSS 파일 연결 -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 상단영역 -->
+    <div id="header">
+        <div class="center">
+            <h1 class="logo"><a href="#">SON</a></h1>
+            <ul class="gnb">
+                <li><a href="#">INTRO</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">PROJECT</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 중간영역 -->
+    <div id="container">
+        <!-- 인트로 비디오 -->
+        <div class="intro">
+            <video class="vid" muted autoplay loop>
+                <source src="img/intro_vid.mp4">
+            </video>
+            <h2 class="typing_text"></h2>
+            <div class="mouse"><img src="img/mouse-scroll.png"></div>
+        </div>
+        <!-- 비디오 태그만큼 공간을 띄우기 위한 투명 공백 100vh -->
+        <div class="margin section"></div>
+        <div class="about section">
+            <div class="center">
+                <!-- 어바웃 미 -->
+                <div class="about_me">
+                    <h3>About me</h3>
+                    <div class="comment">
+                        <p>도전과 변화를 두려워하지 않습니다.</p>
+                        <p>사용자를 배려하며 편리성을 고려한 사이트를 만듭니다.</p>
+                        <p>원활한 의사소통으로 협업을 잘 할 수 있습니다.</p>
+                        <p>디테일하게 보고, 작은 부분도 놓치지 않습니다.</p>
+                        <br/>
+                        <p>멈추어 있을 거라면 시작도 하지 않았습니다.<br/>
+                           꾸준히 공부하며 끊임없이 성장하는 프론트엔드 개발자가 되겠습니다.</p>
+                    </div>
+                </div>
+                <!-- 스킬 모음 -->
+                <ul class="skill">
+                    <li>
+                        <h4><img src="img/React-icon.svg.png"> REACT </h4>
+                        <div class="circle1 circle">
+                            <div class="inner">
+                                <span class="count">0%</span>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                   <linearGradient id="GradientColor">
+                                      <stop offset="0%" stop-color="#dbb0b0" /> <!--시작 색깔-->
+                                      <stop offset="100%" stop-color="#d1c3c0" /> <!--끝나는 색깔-->
+                                   </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>  
+                        </div>
+                    </li>
+                    <li>
+                        <h4><img src="img/node-js.png"> NODE.JS </h4>
+                        <div class="circle1 circle">
+                            <div class="inner">
+                                <span class="count">0%</span>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                   <linearGradient id="GradientColor">
+                                      <stop offset="0%" stop-color="#dbb0b0" /> <!--시작 색깔-->
+                                      <stop offset="100%" stop-color="#d1c3c0" /> <!--끝나는 색깔-->
+                                   </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>  
+                        </div>
+                    </li>
+                    <li>
+                        <h4><img src="img/html.png"> HTML5 / <img src="img/css.png"> CSS3</h4>
+                        <div class="circle1 circle">
+                            <div class="inner">
+                                <span class="count">0%</span>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                   <linearGradient id="GradientColor">
+                                      <stop offset="0%" stop-color="#dbb0b0" /> <!--시작 색깔-->
+                                      <stop offset="100%" stop-color="#d1c3c0" /> <!--끝나는 색깔-->
+                                   </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>  
+                        </div>
+                    </li>
+                    <li>
+                        <h4><img src="img/js.png"> JAVASCRIPT</h4>
+                        <div class="circle3 circle">
+                            <div class="inner">
+                                <span class="count">0%</span>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                   <linearGradient id="GradientColor">
+                                      <stop offset="0%" stop-color="#ffede0" /> 
+                                      <stop offset="100%" stop-color="#f5d0d0" /> 
+                                   </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>  
+                        </div>
+                    </li>
+                    <li>
+                        <h4><img src="img/sql.png"> MY SQL</h4>
+                        <div class="circle4 circle">
+                            <div class="inner">
+                                <span class="count">0%</span>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                   <linearGradient id="GradientColor">
+                                      <stop offset="0%" stop-color="#ffede0" /> 
+                                      <stop offset="100%" stop-color="#f5d0d0" /> 
+                                   </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>  
+                        </div>
+                    </li>
+                    <li>
+                        <h4><img src="img/php.png"> PHP</h4>
+                        <div class="circle4 circle">
+                            <div class="inner">
+                                <span class="count">0%</span>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                   <linearGradient id="GradientColor">
+                                      <stop offset="0%" stop-color="#ffede0" /> 
+                                      <stop offset="100%" stop-color="#f5d0d0" /> 
+                                   </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>  
+                        </div>
+                    </li>
+                    <!-- <li>
+                        <h4><img src="img/photoshop.png"> Photoshop</h4>
+                        <div class="circle6 circle">
+                            <div class="inner">
+                                <span class="count">0%</span>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                   <linearGradient id="GradientColor">
+                                      <stop offset="0%" stop-color="#ffede0" /> 
+                                      <stop offset="100%" stop-color="#f5d0d0" /> 
+                                   </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>  
+                        </div>
+                    </li> -->
+                    <!-- <li>
+                        <h4><img src="img/Illustrator.png"> Illustrator</h4>
+                        <div class="circle7 circle">
+                            <div class="inner">
+                                <span class="count">0%</span>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                   <linearGradient id="GradientColor">
+                                      <stop offset="0%" stop-color="#ffede0" />
+                                      <stop offset="100%" stop-color="#f5d0d0" /> 
+                                   </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>  
+                        </div>
+                    </li> -->
+                    <!-- <li>
+                        <h4><img src="img/figma_b.png"> Figma</h4>
+                        <div class="circle8 circle">
+                            <div class="inner">
+                                <span class="count">0%</span>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                   <linearGradient id="GradientColor">
+                                      <stop offset="0%" stop-color="#ffede0" /> 
+                                      <stop offset="100%" stop-color="#f5d0d0" /> 
+                                   </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>  
+                        </div>
+                    </li> -->
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="project section">
+            <div class="title_box">
+                <h2>PROJECT</h2>
+                <p>참여 프로젝트</p>
+            </div>
+            <ul class="project_list">
+                <li><span>2019.06 ~ 2019.08</span> 삼성 언팩 프리오더</li>
+                <li><span>2019.09 ~ 2020.05</span> 한국문화정보원 지역문화 통합정보시스템 구축</li>
+                <li><span>2020.07 ~ 2021.04</span> CJ WORLD (CJ그룹 사내 사이트 구축)</li>
+                <li><span>2021.06 ~ 2022.06</span> 우정사업정보센터 우정사무,금융시스템 구축 및 행정정보포털 고도화</li>
+                <li><span>2022.07 ~ 2022.08</span> 삼성 언팩 프리오더</li>
+                <li><span>2022.09 ~ 2023.02</span> 한경 아르떼 웹사이트 구축</li>
+                <li><span>2023.03 ~ 2023.06</span> HUG 안심전세 앱 구축</li>
+                <li><span>2023.07 ~ 2023.08</span> 인천교육청 고등학교 입학전형 포털</li>
+                <li><span>2023.08 ~ 2023.12</span> HUG 안심전세앱 운영 및 접근성 인증</li>
+                <li><span>2024.01 ~ 2024.06</span> LG전자 국내 홈페이지 운영</li>
+                <li><span>2024.07 ~ 2025.05</span> 플래스트 사내 인트라넷 구축 및 운영</li>
+                <li><span>2025.06 ~ 2025.07</span> 삼성카드 월별 랜딩페이지 구축 및 운영 </li>
+                <li><span>2025.08 ~ 2025.10</span> 흥국생명 기간계시스템 구축</li>
+            </ul>
+        </div>
+        <div class="portfolio section">
+            <div class="title_box">
+                <h2>MY PORTFOLIO</h2>
+                <p>Frontend / Responsive Web / Web / Design</p>
+            </div>
+            <!-- 프론트엔드 웹 포트폴리오 -->
+            <div class="responsive Frontend">
+                <div class="top">
+                    <div class="bg"></div>
+                    <h2>Frontend Web</h2>
+                </div>    
+                <div class="center">
+                    <ul class="list">
+                        <!-- 신라호텔 포트폴리오 -->
+                        <li class="site apt"  data-aos="zoom-in-right" data-aos-duration="1000">
+                            <div class="img_box"><img src="img/mockup_shilla.jpg"></div>
+                            <div class="txt_box">
+                                <ul class="btn">
+                                    <li class="desktop"><a href="http://gagaclub.cafe24app.com/"  target="_blank">Desktop</a></li>
+                                    <li class="tablet_shilla"><a href="#self">Tablet</a></li>
+                                    <li class="mobile_shilla"><a href="#self">Mobile</a></li>
+                                </ul>
+                                <div class="context">
+                                    <h3 class="title"><img src="img/shilla.png"> :: Shilla Hotel</h3>
+                                    <div class="explanation frontend">
+                                        <p><span><img src="img/uv_top_check_o.png"> </span> React 30% / DB 40% / 디자인 30% / 퍼블리싱 30% / 제작기간 4주</p>
+                                        <p><span><img src="img/uv_top_check_o.png"> </span> React / JavaScript / Node.js / MySql / Scss</p>
+                                        <p><span><img src="img/uv_top_check_o.png"> </span> <span class="all">서브페이지 All</span></p>
+                                        <p><span><img src="img/uv_top_check_o.png"> </span> <span>예약 </span> 날짜별 룸 예약 / 패키지 이용시 패키지 날짜만 조회 </p>
+                                        <p><span><img src="img/uv_top_check_o.png"> </span> <span>게시판 </span> 페이징 / 검색 / 글쓰기 / 수정 / 삭제 / 댓글 기능 </p>
+                                        <p><span><img src="img/uv_top_check_o.png"> </span> <span>회원가입 </span> 정규표현식 / 아이디 중복체크 기능 </p>
+                                        <p><span><img src="img/uv_top_check_o.png"> </span> <span>마이페이지 </span> 회원 정보 출력 / 회원 정보 수정 / 내 숙박 내역 확인 / 내 문의글 열람</p>
+                                        <p><span><img src="img/uv_top_check_o.png"> </span> <span>관리자페이지 </span> 대시보드 / 객실 / 회원 / 예약 / 공지사항 / 문의게시판 / 매출현황</p>
+                                        <p><span><img src="img/uv_top_check_o.png"> </span> <span>관리자 로그인 정보 </span> ID : admin / PW : admin / 관리자페이지 확인 가능</p>
+                                        <p><span><img src="img/uv_top_check_o.png"> </span> <span>사용자 로그인 정보 </span> ID : abc1234 / PW : qwer1234! / myPage 확인 가능</p>
+                                        <p><span><img src="img/uv_top_check_o.png"> </span> <span>위의 로그인 정보로 로그인 가능 </span> 직접 회원가입해서 이용도 가능합니다.</p>
+                                        <!-- <p><span><img src="img/uv_top_check_o.png"> </span> <span>직접 회원가입해서 이용도 가능합니다. </span> DB에 회원 정보 저장</p> -->
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <!-- 반응형 웹 포트폴리오 -->
+            <div class="responsive">
+                <div class="top">
+                    <div class="bg"></div>
+                    <h2>Responsive Web</h2>
+                </div>    
+                <div class="center">
+                    <ul class="list">
+                        <!-- 아파트멘터리 포트폴리오 -->
+                        <li class="site apt"  data-aos="zoom-in-right" data-aos-duration="1000">
+                            <div class="img_box"><img src="img/mockup_apt_01.jpg"></div>
+                            <div class="txt_box">
+                                <ul class="btn">
+                                    <li class="desktop"><a href="http://gagaclub.dothome.co.kr/apt"  target="_blank">Desktop</a></li>
+                                    <li class="tablet_apt"><a href="#self">Tablet</a></li>
+                                    <li class="mobile_apt"><a href="#self">Mobile</a></li>
+                                </ul>
+                                <div class="context">
+                                    <h3 class="title"><img src="img/logo_apt.png"> :: Apartmentary</h3>
+                                    <div class="explanation">
+                                        <p><span><img src="img/uv_top_check_o.png"> </span> 디자인 100% / 퍼블리싱 100% / 제작기간 2주</p>
+                                        <p><span><img src="img/uv_top_check_o.png"> </span> html / css / JavaScript / php / my sql  </p>
+                                        <p><span><img src="img/uv_top_check_o.png"> </span> <span>서브페이지 </span> FIVE / KITCHEN / BATH / BOARD / 회원가입 / 로그인</p>
+                                        <p><span><img src="img/uv_top_check_o.png"> </span> <span>게시판 </span> 페이징 / 검색 / 글쓰기 / 수정 / 삭제 / 댓글 기능 </p>
+                                        <p><span><img src="img/uv_top_check_o.png"> </span> <span>회원가입 </span> 정규표현식 / 아이디 중복체크 기능 </p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </li>
+                        <!-- 노블웍스 포트폴리오 -->
+                        <li class="site novel" data-aos="zoom-in-left" data-aos-duration="1000" data-aos-delay="300">
+                            <div class="img_box"><img src="img/mockup_novel.jpg"></div>
+                            <div class="txt_box">
+                                <ul class="btn">
+                                    <li class="desktop"><a href="http://gagaclub.dothome.co.kr/novel" target="_blank">Desktop</a></li>
+                                    <li class="tablet_novel"><a href="#self">Tablet</a></li>
+                                    <li class="mobile_novel"><a href="#self">Mobile</a></li>
+                                </ul>
+                                <div class="context">
+                                    <h3 class="title"><img src="img/logo_novel.png"> :: Novel works</h3>
+                                    <div class="explanation">
+                                        <p><span><img src="img/uv_top_check_o.png"> </span> 퍼블리싱 100% / 제작기간 2주</p>
+                                        <p><span><img src="img/uv_top_check_o.png"> </span> html / css / JavaScript / php / my sql </p>
+                                        <p><span><img src="img/uv_top_check_o.png"> </span> <span class="all">서브페이지 All</span></p>
+                                        <p><span><img src="img/uv_top_check_o.png"> </span> <span>온라인 상담신청 </span> 서버 업로드 기능 </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 그 외 작업물 -->
+            <div class="besides">
+                <div class="top">
+                    <div class="bg"></div>
+                    <ul class="btn">
+                        <li class="on" data-filter="*"><a href="#self">ALL</a></li>
+                        <li data-filter=".web"><a href="#">Web</a></li>
+                        <li data-filter=".design"><a href="#">Design</a></li>
+                    </ul>
+                </div>
+                <ul class="list besides_list"  data-aos="fade-up" data-aos-duration="1000">
+                    <!-- 두번째 평가였던 쉐프 사이트 메인 -->
+                    <li class="all web" >
+                        <div class="img_box">
+                            <a href="http://gagaclub.dothome.co.kr/test2" target="_blank">
+                                <img src="img/test2.png">
+                                <div class="bg_text">
+                                    <div class="explanation">
+                                        <p><span>&bull; </span> 디자인 100% / 퍼블리싱 100%</p>
+                                        <p><span>&bull; </span> 제작기간 1일</p>
+                                        <p><span>&bull; </span> html / css / JavaScript </p>
+                                        <p><span>&bull; </span> 메인페이지</p>
+                                        <p style="color:yellow"><span>&radic; </span> CLICK</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="txt_box">
+                            <!-- <ul class="view_btn">
+                                <li class="view"><a href="#">VIEW</a></li>
+                            </ul> -->
+                            <div class="context">
+                                <h3 class="title"><img src="img/logo_test2.png"> :: Chef 가상 사이트</h3>
+                                <!-- <div class="explanation">
+                                    <p><span><img src="img/uv_top_check_o.png"> </span> 디자인 100% / 퍼블리싱 100% </p>
+                                    <p><span><img src="img/uv_top_check_o.png"> </span> 제작기간 1일</p>
+                                    <p><span><img src="img/uv_top_check_o.png"> </span> html / css / JavaScript </p>
+                                    <p><span><img src="img/uv_top_check_o.png"> </span> 메인페이지 </p>
+                                </div> -->
+                            </div>
+                        </div>
+                    </li>
+                    <!-- 첫번째 평가였던 음악 공유 사이트 메인 -->
+                    <li class="all web" >
+                        <div class="img_box">
+                            <a href="http://gagaclub.dothome.co.kr/test" target="_blank">
+                                <img src="img/test1.png">
+                                <div class="bg_text">
+                                    <div class="explanation">
+                                        <p><span>&bull; </span> 디자인 100% / 퍼블리싱 100%</p>
+                                        <p><span>&bull; </span> 제작기간 1일</p>
+                                        <p><span>&bull; </span> html / css / JavaScript </p>
+                                        <p><span>&bull; </span> 메인페이지</p>
+                                        <p style="color:yellow"><span>&radic; </span> CLICK</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="txt_box">
+                            <!-- <ul class="view_btn">
+                                <li class="view"><a href="#">VIEW</a></li>
+                            </ul> -->
+                            <div class="context">
+                                <h3 class="title"><img src="img/logo_test1.png"> :: Shared Music 가상 사이트</h3>
+                                <!-- <div class="explanation">
+                                    <p><span><img src="img/uv_top_check_o.png"> </span> 디자인 100% / 퍼블리싱 100%</p>
+                                    <p><span><img src="img/uv_top_check_o.png"> </span> 제작기간 1일</p>
+                                    <p><span><img src="img/uv_top_check_o.png"> </span> html / css / JavaScript </p>
+                                    <p><span><img src="img/uv_top_check_o.png"> </span> 메인페이지</p>
+                                </div> -->
+                            </div>
+                        </div>
+                    </li>
+                    <!-- 반응형 연습했던 러블리펫 화면 -->
+                    <li class="all web" >
+                        <div class="img_box">
+                            <a href="http://gagaclub.dothome.co.kr/lovelypet" target="_blank">
+                                <img src="img/lovepet.png">
+                                <div class="bg_text">
+                                    <div class="explanation">
+                                        <p><span>&bull; </span> 디자인 100% / 퍼블리싱 100%</p>
+                                        <p><span>&bull; </span> 제작기간 1일</p>
+                                        <p><span>&bull; </span> html / css  </p>
+                                        <p><span>&bull; </span> 메인페이지 / 반응형</p>
+                                        <p style="color:yellow"><span>&radic; </span> CLICK</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="txt_box">
+                            <!-- <ul class="view_btn">
+                                <li class="view"><a href="#">VIEW</a></li>
+                            </ul> -->
+                            <div class="context">
+                                <h3 class="title"><img src="img/lovely_pet.png"> :: LOVEPET 가상 사이트</h3>
+                                <!-- <div class="explanation">
+                                    <p><span><img src="img/uv_top_check_o.png"> </span> 디자인 100% / 퍼블리싱 100% </p>
+                                    <p><span><img src="img/uv_top_check_o.png"> </span> 제작기간 1일</p>
+                                    <p><span><img src="img/uv_top_check_o.png"> </span> html / css / JavaScript </p>
+                                    <p><span><img src="img/uv_top_check_o.png"> </span> 메인페이지</p>
+                                </div> -->
+                            </div>
+                        </div>
+                    </li>
+                    <!-- 피그마 공유오피스 반응형 디자인 -->
+                    <li class="all design" >
+                        <div class="img_box">
+                            <a href="https://www.figma.com/file/KxsBZXONIUZzR3lbJCHmQh/%ED%94%BC%EA%B7%B8%EB%A7%88-%EB%B0%98%EC%9D%91%ED%98%95-%EB%94%94%EC%9E%90%EC%9D%B8---%EC%86%90%EC%A3%BC%ED%98%9C?node-id=0%3A1"  target="_blank">
+                                <img src="img/figma_01.png">
+                                <div class="bg_text">
+                                    <div class="explanation">
+                                        <p><span>&bull; </span> Figma 디자인 작업물</p>
+                                        <p><span>&bull; </span> 제작기간 1일</p>
+                                        <p><span>&bull; </span> 1920 / 1024 / 428 </p>
+                                        <p><span>&bull; </span> 가상 사이트 메인페이지</p>
+                                        <p style="color:yellow"><span>&radic; </span> CLICK</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="txt_box">
+                            <!-- <ul class="view_btn">
+                                <li class="view"><a href="#">VIEW</a></li>
+                            </ul> -->
+                            <div class="context">
+                                <h3 class="title"><img src="img/logo_office_b.png"> :: Figma 디자인 시안</h3>
+                                <!-- <div class="explanation">
+                                    <p><span><img src="img/uv_top_check_o.png"> </span> 디자인 100% / 퍼블리싱 100% </p>
+                                    <p><span><img src="img/uv_top_check_o.png"> </span> 제작기간 1일</p>
+                                    <p><span><img src="img/uv_top_check_o.png"> </span> html / css / JavaScript </p>
+                                    <p><span><img src="img/uv_top_check_o.png"> </span> 메인페이지 </p>
+                                </div> -->
+                            </div>
+                        </div>
+                    </li>
+                    <!-- 피그마 커피빈 리뉴얼 -->
+                    <li class="all design" >
+                        <div class="img_box">
+                            <a href="https://www.figma.com/file/7B7hTgINaotwXlHBXElKYP/%ED%94%BC%EA%B7%B8%EB%A7%88-%EB%A9%94%EC%9D%B8-%EC%B5%9C%EC%A2%85-%EC%97%B0%EC%8A%B5---%EC%86%90%EC%A3%BC%ED%98%9C?node-id=0%3A1" target="_blank">
+                                <img src="img/figma_02.png">
+                                <div class="bg_text">
+                                    <div class="explanation">
+                                        <p><span>&bull; </span> Figma 디자인 작업물</p>
+                                        <p><span>&bull; </span> 제작기간 1일</p>
+                                        <p><span>&bull; </span> 커피빈 사이트 리뉴얼</p>
+                                        <p><span>&bull; </span> 메인페이지 / 서브페이지 * 2 </p>
+                                        <p style="color:yellow"><span>&radic; </span> CLICK</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="txt_box">
+                            <!-- <ul class="view_btn">
+                                <li class="view"><a href="#">VIEW</a></li>
+                            </ul> -->
+                            <div class="context">
+                                <h3 class="title"><img src="img/logo_coffee.png"> :: Figma 디자인 시안</h3>
+                                <!-- <div class="explanation">
+                                    <p><span><img src="img/uv_top_check_o.png"> </span> 디자인 100% / 퍼블리싱 100%</p>
+                                    <p><span><img src="img/uv_top_check_o.png"> </span> 제작기간 1일</p>
+                                    <p><span><img src="img/uv_top_check_o.png"> </span> html / css / JavaScript </p>
+                                    <p><span><img src="img/uv_top_check_o.png"> </span> 메인페이지</p>
+                                </div> -->
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="contact section">
+            <div class="center">
+                <div class="phone">
+                    <i class="fa-solid fa-mobile-retro"></i>
+                    <h3>010-8251-9510</h3>
+                </div>
+                <div class="mail">
+                    <i class="fa-solid fa-envelope-open-text"></i>
+                    <h3>gagaclub@naver.com</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 하단 영역 -->
+    <div id="footer">
+        <p> Copyright &copy; 2022 <span>SON JOOHYE</span> All right reserved.</p>
+    </div>
+
+    <!-- 오른쪽 하단 픽스 버튼 -->
+    <div class="fix_wrap" >
+        <a class="fix_top" href="#"><i class="fa-solid fa-arrow-up-long"></i></a>
+    </div>
+
+
+    <!-- AOS 스크롤 애니메이션 연결 -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- 아이소토프 -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <!-- 스크립트 파일 연결 -->
+    <script src="js/script.js"></script>
+</body>
+</html>
