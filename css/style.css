@@ -129,7 +129,7 @@ body {line-height: 1; font-size: 13px; color: #333; }
 
 /* 포트폴리오 모음 */
 .portfolio {background:#fff url(../img/bg_portfolio_01.png) center center/cover no-repeat;
-            height:320vh; position: relative; padding:150px 0 30px;}
+            height:333vh; position: relative; padding:150px 0 30px;}
 .portfolio .title_box {text-align: center; margin-bottom:70px;}
 .portfolio .title_box > h2 {font-size: 50px; color: #333; }
 .portfolio .title_box > p {font-size: 15px; color:#888; margin-top: 20px; }
